@@ -6,9 +6,10 @@ function Start() {
     <div className="flex  items-center justify-center h-screen bg-[#272E65]">
       <div className="flex flex-col gap-10">
         <div>
-          <h3 className="text-white font-bold text-2xl">WelCome To Metaverse</h3>
+          <h3 className="text-white font-bold text-2xl">Welcome to the Metaverse!</h3>
           <p className="text-white mt-2">
-            Lets SocialLize Noe need to go out size only OScial lize
+          🌐✨ Socialize anytime, anywhere—no need to step outside.
+           The world is at your fingertips!"
           </p>
         </div>
 
