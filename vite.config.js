@@ -5,7 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss()],
   server: {
-    port:  5173,  // Set port dynamically
-    host: '0.0.0.0'                  // Allow external access
+    allowedHosts: ['metaversefrontend.onrender.com'], // ✅ Allow Render domain
+    host: '0.0.0.0', // ✅ Allow external access
+    port: 5173, // ✅ Set a fixed port
   }
 })
